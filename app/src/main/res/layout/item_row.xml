@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/white"
+    >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:theme="@style/scenarioButton"
+        android:layout_marginLeft="16dp"
+        />
+
+</FrameLayout>
